@@ -35,7 +35,9 @@ PS：为啥不用ResNet等作为backbone呢？因为本人的GPU只有6G显存�
 
 ### 0x03 结果
 
-结果如下图，图片大小缩放到了512*512
+效果如下图，图片大小缩放到了512*512
+
+视频已经上传到B站，链接：https://www.bilibili.com/video/av78626868/
 
 ![](imgs/road_segmentation_1.png)
 
