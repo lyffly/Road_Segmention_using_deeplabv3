@@ -25,7 +25,21 @@ Kitti datasets : http://www.cvlibs.net/datasets/kitti/
 
 ### 0x02 训练
 
+由于kitti数据集只有200张，有点少，采用了mobilenet作为backbone进行训练。
+
+PS：为啥不用ResNet等作为backbone呢？因为本人的GPU只有6G显存，只能跑起来mobilenet～～
+
+有条件的可以用ResNet作为backbone，效果会更好。
+
 
 
 ### 0x03 结果
+
+结果如下图，图片大小缩放到了512*512
+
+![](imgs/road_segmentation_1.png)
+
+![](imgs/road_segmentation_2.png)
+
+![](imgs/road_segmentation_3.png)
 
